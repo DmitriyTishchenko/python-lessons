@@ -17,7 +17,7 @@
 # print('hi ' * 4)
 #
 # s = 'Hello world!'
-# print(s[-12])
+# print(s[-12])  # номерация с конца строки
 
 # s[0] = "D"
 
@@ -25,11 +25,13 @@
 
 s = "Hello world!"
 
-print(s[0:12])  # Hello world!
-print(s[-1])    # !
-print(s[0:5])   # Hello
-print(s[:5])    # Hello
-print(s[6:])    # world!
-print(s[::1])   # Hello world!
-print(s[::-1])   # !dlrow olleH
-print(s[0:5] + s[6:])   # Helloworld!
+# print(s[0:12])  # Hello world!
+# print(s[-1])  # !
+# print(s[0:5])  # Hello
+# print(s[:5])  # Hello
+# print(s[6:])  # world!
+# print(s[::1])  # Hello world!
+# print(s[::2])  # Hlowrd
+# print(s[::-1])  # !dlrow olleH
+print(s[0:5] + s[6:])  # Helloworld!
+
